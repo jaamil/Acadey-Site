@@ -1,0 +1,97 @@
+.carousel-header{
+    margin-bottom: 150px;
+}
+.carousel-header h1{
+    font-size: 60px;
+}
+
+/* for phone  */
+ 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .carousel-header{
+        margin-bottom: 0px;
+    }
+    .carousel-header h1{
+        font-size: 15px;
+    }
+    .fs-5-p{
+        font-size: 7px !important;
+    }
+    .btn-outline-success{
+        padding-left: 5px !important;
+        padding-top: 5px !important;
+        padding-right: 5px !important;
+        padding-bottom: 5px !important;
+        margin-top: 0px !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 0.25rem; 
+        padding-bottom: 0.25rem; 
+        color: #fff;
+        text-align: center;
+    }
+  }
+
+  /* tablet for  */
+
+  @media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+    .carousel-header{
+        margin-bottom: 30px;
+    }
+    .carousel-header h1{
+        font-size: 24px;
+    }
+    .fs-5-p{
+        font-size: 12px !important;
+    }
+    .btn-outline-success{
+        padding-left: 6px !important;
+        padding-top: 6px !important;
+        padding-right: 6px !important;
+        padding-bottom: 6px !important;
+        margin-top: 0px !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 0.25rem; 
+        padding-bottom: 0.25rem; 
+        color: #fff;
+        text-align: center;
+    }
+  }
+  /* medium device */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+    .carousel-header{
+        margin-bottom: 60px;
+    }
+    .carousel-header h1{
+        font-size: 30px;
+    }
+    .fs-5-p{
+        font-size: 15px !important;
+    }
+    .btn-outline-success{
+        padding-left: 7px !important;
+        padding-top: 7px !important;
+        padding-right: 7px !important;
+        padding-bottom: 7px !important;
+        margin-top: 10px !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 0.25rem; 
+        padding-bottom: 0.25rem; 
+        color: #fff;
+        text-align: center;
+    }
+  }
